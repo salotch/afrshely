@@ -1,0 +1,112 @@
+.carousel-item {
+    height: 91vh;
+    background-size: cover;
+    background-position: right;
+}
+
+.ccaption {
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    color: white;
+}
+.white-arrow {
+    color: white;
+    font-size: 1rem;
+}
+.dark-arrow {
+    color: #1e1f22;
+    font-size: 1rem;
+}
+.btn-link{
+    color: black;
+}
+.categories, .container-fluid{
+    padding-left: 3%;
+    padding-right: 1%;
+    padding-top: 1%;
+    flex-grow: 1;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f6f9;
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    height: 40%;
+
+}
+.c1{
+   width: 15rem;
+    color: black;
+    margin: 1rem;
+}
+.c1 img{
+    height: 80%;
+}
+.pop
+{
+    margin-right: 6rem;
+}
+.rooms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+}
+.c2{
+    width: 40%;
+    height:95% ;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c2:hover{
+    color: white;
+    text-underline-color: white;
+}
+.latest{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom:2rem ;
+}
+.c3{
+    width: 15rem;
+    height: 17rem;
+    margin: 0.4rem;
+
+}
+
+.c3 img{
+    height: 70%;
+}
+.latest a{
+    color: black;
+}
+.latest a:hover{
+    text-decoration: none;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.37);
+    border: none;
+    border-radius: 0.5rem;
+}
+.rating-bar {
+    display: flex;
+    align-items: center;
+    color: rgba(78, 85, 91, 0.51);
+}
+.rating-bar .star {
+    color: #ffc107; /* Star color */
+    font-size: 1rem; /* Star size */
+}
+.c3{
+
+    border: none;
+}
